@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7044ECF24E04E7800C9CDFE /* MarsPhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7044ECE24E04E7800C9CDFE /* MarsPhotoCollectionViewController.swift */; };
+		D7044ED124E04E8E00C9CDFE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7044ED024E04E8E00C9CDFE /* DetailViewController.swift */; };
+		D7044ED724E051AE00C9CDFE /* NASAPhotoEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044ED624E051AE00C9CDFE /* NASAPhotoEntry.m */; };
 		D798AFF72487572E00950B07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D798AFF62487572E00950B07 /* AppDelegate.m */; };
 		D798AFFA2487572E00950B07 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D798AFF92487572E00950B07 /* SceneDelegate.m */; };
-		D798AFFD2487572E00950B07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798AFFC2487572E00950B07 /* ViewController.m */; };
 		D798B0002487572E00950B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D798AFFE2487572E00950B07 /* Main.storyboard */; };
 		D798B0022487573200950B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D798B0012487573200950B07 /* Assets.xcassets */; };
 		D798B0052487573200950B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D798B0032487573200950B07 /* LaunchScreen.storyboard */; };
@@ -17,13 +19,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7044ECD24E04E7800C9CDFE /* Astronomy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Astronomy-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7044ECE24E04E7800C9CDFE /* MarsPhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		D7044ED024E04E8E00C9CDFE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D7044ED524E051AE00C9CDFE /* NASAPhotoEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASAPhotoEntry.h; sourceTree = "<group>"; };
+		D7044ED624E051AE00C9CDFE /* NASAPhotoEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASAPhotoEntry.m; sourceTree = "<group>"; };
 		D798AFF22487572E00950B07 /* Astronomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astronomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D798AFF52487572E00950B07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D798AFF62487572E00950B07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D798AFF82487572E00950B07 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		D798AFF92487572E00950B07 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		D798AFFB2487572E00950B07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D798AFFC2487572E00950B07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D798AFFF2487572E00950B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D798B0012487573200950B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D798B0042487573200950B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,17 +66,20 @@
 		D798AFF42487572E00950B07 /* Astronomy */ = {
 			isa = PBXGroup;
 			children = (
+				D7044ED524E051AE00C9CDFE /* NASAPhotoEntry.h */,
+				D7044ED624E051AE00C9CDFE /* NASAPhotoEntry.m */,
 				D798AFF52487572E00950B07 /* AppDelegate.h */,
 				D798AFF62487572E00950B07 /* AppDelegate.m */,
 				D798AFF82487572E00950B07 /* SceneDelegate.h */,
 				D798AFF92487572E00950B07 /* SceneDelegate.m */,
-				D798AFFB2487572E00950B07 /* ViewController.h */,
-				D798AFFC2487572E00950B07 /* ViewController.m */,
 				D798AFFE2487572E00950B07 /* Main.storyboard */,
 				D798B0012487573200950B07 /* Assets.xcassets */,
 				D798B0032487573200950B07 /* LaunchScreen.storyboard */,
 				D798B0062487573200950B07 /* Info.plist */,
 				D798B0072487573200950B07 /* main.m */,
+				D7044ECE24E04E7800C9CDFE /* MarsPhotoCollectionViewController.swift */,
+				D7044ED024E04E8E00C9CDFE /* DetailViewController.swift */,
+				D7044ECD24E04E7800C9CDFE /* Astronomy-Bridging-Header.h */,
 			);
 			path = Astronomy;
 			sourceTree = "<group>";
@@ -102,11 +110,13 @@
 		D798AFEA2487572E00950B07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NASA;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = AlphaGradeINC;
 				TargetAttributes = {
 					D798AFF12487572E00950B07 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -146,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D798AFFD2487572E00950B07 /* ViewController.m in Sources */,
+				D7044ED724E051AE00C9CDFE /* NASAPhotoEntry.m in Sources */,
 				D798AFF72487572E00950B07 /* AppDelegate.m in Sources */,
 				D798B0082487573200950B07 /* main.m in Sources */,
+				D7044ED124E04E8E00C9CDFE /* DetailViewController.swift in Sources */,
+				D7044ECF24E04E7800C9CDFE /* MarsPhotoCollectionViewController.swift in Sources */,
 				D798AFFA2487572E00950B07 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WMWTV546RX;
 				INFOPLIST_FILE = Astronomy/Info.plist;
@@ -298,6 +311,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlphaGradeINC.Astronomy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Astronomy/Astronomy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -306,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WMWTV546RX;
 				INFOPLIST_FILE = Astronomy/Info.plist;
@@ -315,6 +332,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlphaGradeINC.Astronomy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Astronomy/Astronomy-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
